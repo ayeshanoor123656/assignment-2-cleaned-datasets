@@ -60,7 +60,6 @@ This repository contains the two cleaned datasets produced for Assignment 2 (Exp
 | `primary_country` | First listed country |
 | `is_near_duplicate` | Flags near-duplicate title pairs |
 
-The file also contains flag columns for duration outliers and for titles added before their release year. [Check the CSV header and add the exact column names here.]
 
 ### Cleaning summary
 
@@ -109,7 +108,7 @@ The file also contains flag columns for duration outliers and for titles added b
 
 ### Derived columns
 
-`hour`, `weekday`, `month`, `time_of_day`, `is_weekend`, `is_total_outlier`. [Check the CSV header and add any remaining derived columns.]
+`hour`, `weekday`, `month`, `time_of_day`, `is_weekend`, `is_total_outlier`.
 
 ### Cleaning summary
 
@@ -131,14 +130,6 @@ The file also contains flag columns for duration outliers and for titles added b
 
 ---
 
-## Usage
-
-```python
-import pandas as pd
-
-netflix = pd.read_csv("23L-0549_A2_Q1.csv", parse_dates=["date_added"])
-supermarket = pd.read_csv("23L-0549_A2_Q2.csv", parse_dates=["date"])
-```
 
 ## License and attribution
 
