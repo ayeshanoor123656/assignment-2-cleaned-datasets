@@ -135,7 +135,6 @@ This repository contains the two cleaned datasets produced for Assignment 2 (Exp
 
 - Netflix data: derived from the Kaggle dataset "Netflix Movies and TV Shows" (shivamb), https://www.kaggle.com/datasets/shivamb/netflix-shows. Please check the original dataset's license on Kaggle.
 - Supermarket data: derived from the instructor-provided file `supermarket_Sales.csv`.
-- [Add your own license for the cleaned versions, if any.]
 
 ## Author
 
